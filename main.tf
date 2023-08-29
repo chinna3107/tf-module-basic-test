@@ -6,7 +6,6 @@ resource "aws_instance" "instance" {
   tags = {
     Name = var.name
   }
-
 }
 
 resource "aws_route53_record" "record" {
